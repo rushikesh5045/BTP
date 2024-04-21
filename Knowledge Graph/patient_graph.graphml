@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="82">
+      <data key="d0">patient</data>
+    </node>
+    <node id="Vision loss">
+      <data key="d0">symptom</data>
+    </node>
+    <node id="Eye pain">
+      <data key="d0">symptom</data>
+    </node>
+    <edge source="82" target="Vision loss">
+      <data key="d1">HAS_SYMPTOMS</data>
+    </edge>
+    <edge source="82" target="Eye pain">
+      <data key="d1">HAS_SYMPTOMS</data>
+    </edge>
+  </graph>
+</graphml>
